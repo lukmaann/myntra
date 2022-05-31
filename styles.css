@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.left li {
+  list-style: none;
+  padding-right: 30px;
+  padding-top: 17px;
+}
+.right {
+  width: 50vw;
+  padding-bottom: 10px;
+}
+.left img {
+  width: 53px;
+  height: 37px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+header {
+  padding: 20px;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+}
+.section1 {
+  height: 100px;
+  background-color: beige;
+}
+#searchBar {
+  margin-top: 11px;
+  height: 20px;
+  width: 24vw;
+  padding: 8px 20px 10px;
+  border: 1px solid #f5f5f6;
+  border-radius: 4px;
+  background-color: #f5f5f6;
+}
+.icons {
+  width: 1vw;
+  height: 3vw;
+  padding: 13px 12px 0 18px;
+}
+.profile {
+  position: absolute;
+  right: 222px;
+  padding-top: 0%;
+}
+.watchlist {
+  position: absolute;
+  right: 145px;
+  padding-top: 0%;
+}
+.bag {
+  position: absolute;
+  right: 68px;
+  padding-top: 0%;
+}
+.profile-text {
+  position: absolute;
+  right: 222px;
+  top: 60px;
+}
+.watchlist-text {
+  position: absolute;
+  right: 132px;
+  top: 60px;
+}
+.bag-text {
+  position: absolute;
+  right: 75px;
+  top: 60px;
+}
+.left .studio {
+  padding-right: 0;
+}
+.left .sup {
+  font-size: 0.6rem;
+  color: red;
+  padding-top: 8px;
+  font-weight: 700;
+}
+.banner img {
+  padding-top: 100px;
+  width: 100vw;
+}
+
+.head {
+  padding: 50px;
+  font-family: "Poppins", sans-serif;
+  color: #3e4152;
+  font-weight: bold;
+}
+.dod{
+    width: 138px;
+    height: 208px;
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .icons {
+    width: 20px;
+    height: 20px;
+  }
+  #searchBar {
+    opacity: 0;
+  }
+  .left ul {
+    opacity: 0;
+  }
+}
